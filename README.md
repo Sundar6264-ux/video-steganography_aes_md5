@@ -1,27 +1,33 @@
 # 🔐 Video Steganography with AES & MD5
-> **Project timeline:** Initially built in **May 2024**; this README updated **September 2025**.
+> **Project timeline:** Initially built in **May 2024**; this README,Codebase updated **September 2025**.
 
 
 Hide encrypted text **inside video frames** using **AES‑256‑GCM** and validate integrity with **MD5 checksums**.  
 The encoder embeds ciphertext into select frames via **LSB steganography** and rebuilds a playable video (audio preserved).  
+
 The decoder extracts, verifies, and reconstructs the original plaintext.
 
 ---
 
 ## 📂 Project Structure
-
 ```
-├── aes_utils.py            # AES‑256‑GCM encryption/decryption helpers
-├── md5_utils.py            # MD5 checksum generation & verification
-├── encode.py               # Encoder: hides encrypted messages inside video frames
-├── decode.py               # Decoder: extracts and decrypts hidden messages
-├── DustBunnyTrailer.mp4    # Input video (carrier)
-├── Hiddn.webp              # Optional input image to store frame indices (if chosen)
-├── video.mov               # Output stego video with hidden message
-├── image-enc.png           # Output image containing frame indices (optional)
+├───src/
+├   ├── aes_utils.py            # AES‑256‑GCM encryption/decryption helpers
+├   ├── md5_utils.py            # MD5 checksum generation & verification
+├   ├── encode.py               # Encoder: hides encrypted messages inside video frames
+├   ├── decode.py               # Decoder: extracts and decrypts hidden messages
+├
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
+
+📦 **Media files (not in repo):** download from this Drive folder and place them in the repo root:
+- Carrier video: `DustBunnyTrailer.mp4`
+- Optional still image for frame indices: `Hiddn.webp`
+- (Outputs will be created locally): `video.mov`, `image-enc.png`
+
+**Download media:**  
+<https://drive.google.com/drive/folders/14fXWpIY3sSY_ugPZB3izdRYuehcSRkWs?usp=share_link>
 
 > **Note:** The filename `Hiddn.webp` is just a placeholder. You can use any still image if you choose the “store indices in image” option.
 
