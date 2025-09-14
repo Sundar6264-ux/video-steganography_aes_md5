@@ -21,13 +21,14 @@ The decoder extracts, verifies, and reconstructs the original plaintext.
 └── README.md
 ```
 
+[Paper Pdf](https://drive.google.com/file/d/1PMvY5raevR0bQhm9SWLN9nNHKOVoDWsT/view?usp=share_link)
+
 📦 **Media files (not in repo):** download from this Drive folder and place them in the repo root:
 - Carrier video: `DustBunnyTrailer.mp4`
 - Optional still image for frame indices: `Hiddn.webp`
 - (Outputs will be created locally): `video.mov`, `image-enc.png`
 
-**Download media:**  
-<https://drive.google.com/drive/folders/14fXWpIY3sSY_ugPZB3izdRYuehcSRkWs?usp=share_link>
+[Download media](https://drive.google.com/drive/folders/14fXWpIY3sSY_ugPZB3izdRYuehcSRkWs?usp=share_link)
 
 > **Note:** The filename `Hiddn.webp` is just a placeholder. You can use any still image if you choose the “store indices in image” option.
 
