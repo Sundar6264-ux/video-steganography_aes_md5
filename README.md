@@ -1,5 +1,5 @@
 # 🔐 Video Steganography with AES & MD5
-> **Project timeline:** Initially built in **May 2024**; this README,Codebase updated **September 2025**.
+> **Project timeline:** Initially built in **May 2024**; this README, Codebase updated **September 2025**.
 
 
 Hide encrypted text **inside video frames** using **AES‑256‑GCM** and validate integrity with **MD5 checksums**.  
