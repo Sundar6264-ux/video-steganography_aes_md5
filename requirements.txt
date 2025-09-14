@@ -1,0 +1,7 @@
+opencv-python
+stegano
+pycryptodome
+Pillow
+termcolor
+pyfiglet
+numpy

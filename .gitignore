@@ -1,0 +1,31 @@
+# Bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Temporary folders
+tmp/
+frames_*/
+
+# Output artifacts
+video.mov
+image-enc.png
+
+# Input media (optional, if you don’t want to version large binaries)
+DustBunnyTrailer.mp4
+Hiddn.webp
